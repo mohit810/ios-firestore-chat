@@ -18,7 +18,8 @@
 		0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B628190235DF01B00E35CAF /* ChatViewController.swift */; };
 		0B62819E235F0F4D00E35CAF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0B62819D235F0F4D00E35CAF /* README.md */; };
 		33930712F43C72BE82D6F365 /* Pods_Firestore_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E561C60CC8976A9981ADEB63 /* Pods_Firestore_Chat.framework */; };
-		E41A34C125A096E200998A9C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E41A34C025A096E200998A9C /* GoogleService-Info.plist */; };
+		E48C0C1525A0EBFE002B0446 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E48C0C1425A0EBFE002B0446 /* GoogleService-Info.plist */; };
+		E48C0C1825A0ECDD002B0446 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48C0C1725A0ECDD002B0446 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +36,8 @@
 		0B628190235DF01B00E35CAF /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		0B62819D235F0F4D00E35CAF /* README.md */ = {isa = PBXFileReference; explicitFileType = sourcecode.make; fileEncoding = 4; path = README.md; sourceTree = "<group>"; };
 		2614EBAC9EC8CD2A9FE1A43C /* Pods-Firestore Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firestore Chat.debug.xcconfig"; path = "Target Support Files/Pods-Firestore Chat/Pods-Firestore Chat.debug.xcconfig"; sourceTree = "<group>"; };
-		E41A34C025A096E200998A9C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E48C0C1425A0EBFE002B0446 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E48C0C1725A0ECDD002B0446 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E561C60CC8976A9981ADEB63 /* Pods_Firestore_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firestore_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E990C06C13248F431429727F /* Pods-Firestore Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firestore Chat.release.xcconfig"; path = "Target Support Files/Pods-Firestore Chat/Pods-Firestore Chat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,12 +78,13 @@
 			children = (
 				0B628176235DEE8100E35CAF /* AppDelegate.swift */,
 				0B628178235DEE8100E35CAF /* SceneDelegate.swift */,
+				E48C0C1725A0ECDD002B0446 /* Constants.swift */,
 				0B628193235DF03400E35CAF /* Views */,
 				0B628192235DF02000E35CAF /* Controllers */,
 				0B62817F235DEE8400E35CAF /* Assets.xcassets */,
 				0B628181235DEE8400E35CAF /* LaunchScreen.storyboard */,
 				0B628184235DEE8400E35CAF /* Info.plist */,
-				E41A34C025A096E200998A9C /* GoogleService-Info.plist */,
+				E48C0C1425A0EBFE002B0446 /* GoogleService-Info.plist */,
 			);
 			path = "Firestore Chat";
 			sourceTree = "<group>";
@@ -184,7 +187,7 @@
 			files = (
 				0B628183235DEE8400E35CAF /* LaunchScreen.storyboard in Resources */,
 				0B628180235DEE8400E35CAF /* Assets.xcassets in Resources */,
-				E41A34C125A096E200998A9C /* GoogleService-Info.plist in Resources */,
+				E48C0C1525A0EBFE002B0446 /* GoogleService-Info.plist in Resources */,
 				0B62819E235F0F4D00E35CAF /* README.md in Resources */,
 				0B62817E235DEE8100E35CAF /* Main.storyboard in Resources */,
 			);
@@ -243,6 +246,7 @@
 				0B628177235DEE8100E35CAF /* AppDelegate.swift in Sources */,
 				0B628179235DEE8100E35CAF /* SceneDelegate.swift in Sources */,
 				0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */,
+				E48C0C1825A0ECDD002B0446 /* Constants.swift in Sources */,
 				0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */,
 				0B62818D235DF00B00E35CAF /* RegisterViewController.swift in Sources */,
 			);

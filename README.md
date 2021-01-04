@@ -10,7 +10,7 @@ Firestore Chat is an internet based messaging app. This project is using Firebas
 
 ` pod 'Firebase/Auth' `
   
- ` pod 'Firebase/Firestore' `
+` pod 'Firebase/Firestore' `
 
 ### Steps to follow
 
