@@ -1,6 +1,6 @@
 # Firestore-Chat
 
-(On-going)
+(Complete)
 
 ## Our Goal
 
@@ -12,6 +12,8 @@ Firestore Chat is an internet based messaging app. This project is using Firebas
   
 ` pod 'Firebase/Firestore' `
 
+` pod 'IQKeyboardManagerSwift' `
+
 ### Steps to follow
 
 * Clone the project.
@@ -20,9 +22,10 @@ Firestore Chat is an internet based messaging app. This project is using Firebas
 * Initialize CocoaPods and add above mentioned pods.
 * Create a Firestore DB with test rules.
 
-### rules for Firestore
+### Rules for Firestore
 
 Paste rules writen below in the Firestore Rules Tab :
+
 `service cloud.firestore {
   match /databases/{database}/documents {
     match /{document=**} {
